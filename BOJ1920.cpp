@@ -1,5 +1,9 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include<bits/stdc++.h>
+//1920번: 수 찾기
+//배열사용서 시간초과관계로 간단한 heap을 만들어 풀었다. M만큼 insert(). N만큼 search()하며
+//search가 true일경우 0으로 초기화된 출력 버퍼에 1을 넣어준다.
+//M,N=n 정수A=t, 
 using namespace std;
 
 class node {
