@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
-//테스트데이터의 수인  r을 입력받는다
+//10250번 ACM 호텔
+//테스트데이터의 수인 r을 입력받는다
 //w값은 무시되며 YXX YYXX의 형태로 층과 호수를 표기하기에 Y(i)는  n mod h==0?가 true일때 h이며 거짓이면 n modh를 그대로 사용한다.
 //XX는 1의 자리가 0 일때 0X로 표기해야하므로 %02d로 표기해야한다.
 using namespace std;

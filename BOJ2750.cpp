@@ -1,7 +1,9 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include<stack>
-
+//2750번: 수 정렬하기
+//*참고자료 https ://ko.wikipedia.org/wiki/퀵_정렬#C++
+//QS함수를 만들어 풀었다
 using namespace std;
 int nums[1003];
 
@@ -36,4 +38,5 @@ int main() {
             printf("%d\n", rev.top());
             rev.pop();
         }
+    return 0;
 }
