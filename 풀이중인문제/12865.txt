@@ -1,0 +1,11 @@
+1 #include <bits/stdc++.h>                                                                                     2 using namespace std;
+  3 int n,k,w,v,tempw,tempv,chart[100][100],i,out;
+  4 vector<pair<int,int> > b;
+  5 void knap(){
+  6     i++;
+  7     if(tempw<w){
+  8     tempw+=b[i].first;
+  9     tempv+=b[i].second;
+ 10     }
+ 11     else if(w<tempw){
+ 12 
