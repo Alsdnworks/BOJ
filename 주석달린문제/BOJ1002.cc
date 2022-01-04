@@ -1,6 +1,4 @@
-﻿#include <iostream>
-#include <cmath>
-#include <algorithm>
+﻿#include <bits/stdc++.h>
 //1002번: 터렛 
 //rep 만큼 반복. 소문자,대문자원의 중점 죄표와 원의 반지름이 주어진다.
 //두 원의 위치관계를 통해 몇개의 점에서 만나는지알수있다.
